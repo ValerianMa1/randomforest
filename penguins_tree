@@ -1,0 +1,11 @@
+digraph {
+	bill_length_mm [fontname=SimHei]
+	Adelie0 [fontname=SimHei]
+	bill_length_mm -> Adelie0 [label="<=190.1" fontname=SimHei]
+	bill_length_mm -> bill_depth_mm [label=">190.1" fontname=SimHei]
+	bill_depth_mm [fontname=SimHei]
+	Gentoo1 [fontname=SimHei]
+	bill_depth_mm -> Gentoo1 [label="<=292.2" fontname=SimHei]
+	Chinstrap2 [fontname=SimHei]
+	bill_depth_mm -> Chinstrap2 [label=">292.2" fontname=SimHei]
+}

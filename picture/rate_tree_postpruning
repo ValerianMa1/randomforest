@@ -1,0 +1,11 @@
+digraph {
+	"密度" [fontname=SimHei]
+	"否1" [fontname=SimHei]
+	"密度" -> "否1" [label="<=0.4205" fontname=SimHei]
+	"密度" -> "纹理" [label=">0.4205" fontname=SimHei]
+	"纹理" [fontname=SimHei]
+	"否2" [fontname=SimHei]
+	"纹理" -> "否2" [label="稍糊" fontname=SimHei]
+	"是3" [fontname=SimHei]
+	"纹理" -> "是3" [label="清晰" fontname=SimHei]
+}

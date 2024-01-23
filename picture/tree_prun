@@ -1,0 +1,4 @@
+digraph {
+	"否0" [fontname=SimHei]
+	"纹理" -> "否0" [label=None fontname=SimHei]
+}

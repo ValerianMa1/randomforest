@@ -1,0 +1,9 @@
+digraph {
+	"纹理" [fontname=SimHei]
+	"否1" [fontname=SimHei]
+	"纹理" -> "否1" [label="稍糊" fontname=SimHei]
+	"是2" [fontname=SimHei]
+	"纹理" -> "是2" [label="清晰" fontname=SimHei]
+	"否3" [fontname=SimHei]
+	"纹理" -> "否3" [label="模糊" fontname=SimHei]
+}
